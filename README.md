@@ -6,24 +6,24 @@ This is a fuzzy logic implementation in Python. If you want to try using it with
 # Explanation
 
 **(Library Import)**
-pandas = to read and output xlsx file
-warnings = not that important, it was just use to hidden any warnings
-random = to generate random value for generating random service and price value for test.xlsx
-pyi_splash = it will be used if you want to compile this code to .exe file. It is not important thou 👌
+> pandas = to read and output xlsx file
+> warnings = not that important, it was just use to hidden any warnings
+> random = to generate random value for generating random service and price value for test.xlsx
+> pyi_splash = it will be used if you want to compile this code to .exe file. It is not important thou 👌
 
 **(Fuzzification)**
 ![Fuzzification Legend](https://github.com/DAFFA4EVER/Fuzzy-Hu-Tao/blob/main/Teaching%20by%20Hu%20Tao.png)
 
 **(Inference)**
-Service : Ranging from Low, Average, and High
-Price   : Ranging from Low, Average, and High
-Status  : Ranging from Rejected, Considered, and Accepted
+> Service : Ranging from Low, Average, and High
+> Price   : Ranging from Low, Average, and High
+> Status  : Ranging from Rejected, Considered, and Accepted
 
 **(Defuzzification)**
 We use Sugeno method to do it
-sugeno[0] = for low
-sugeno[1] = for mid
-sugeno[2] = for high
+> sugeno[0] = for low
+> sugeno[1] = for mid
+> sugeno[2] = for high
 
 **(Main Program)**
 > mode = Yes/No
