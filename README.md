@@ -27,11 +27,11 @@ We use Sugeno method to do it
 
 **(Main Program)**
 * mode = Yes/No
-    Yes : We try to to use a custom one data (test.xlsx)
-    No  : We use provided data from my lecturer (bengkel.xlsx)
+    - Yes : We try to to use a custom one data (test.xlsx)
+    - No  : We use provided data from my lecturer (bengkel.xlsx)
 * generate = Yes/No
-    Yes : We generate new data (test.xlsx) randomly
-    No  : We use the existing data (test.xlsx)
+    - Yes : We generate new data (test.xlsx) randomly
+    - No  : We use the existing data (test.xlsx)
 * flag  = True/False
-    True : Means we can read the data (either bengkel.xlsx or test.xlsx)
-    False : Means we can't read the data (either bengkel.xlsx or test.xlsx)
+    - True : Means we can read the data (either bengkel.xlsx or test.xlsx)
+    - False : Means we can't read the data (either bengkel.xlsx or test.xlsx)
