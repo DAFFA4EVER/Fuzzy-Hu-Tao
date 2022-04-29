@@ -1,3 +1,4 @@
+# (Library Import)
 import pandas as pd
 import warnings
 import random
@@ -115,21 +116,25 @@ def savefile(final_data, flag):
 
 # Program Setting
 
+# (Fuzzification)
 service = {'low_top': 0, 'low_bot': 0, 'avg_top_left' : 0, 'avg_bot_left': 0, 
            'avg_top_right': 0, 'avg_bot_right': 0, 'high_top': 0, 'high_bot': 0, 'Method': 'Service'}
 
 price = {'low_top': 0, 'low_bot': 0, 'avg_top_left' : 0, 'avg_bot_left': 0, 
            'avg_top_right': 0, 'avg_bot_right': 0, 'high_top': 0, 'high_bot': 0, 'Method': 'Price'}
 
+# (Inference)
 # Only accept : Rejected, Considered, and Accepted
 inference_setting = [ 
 {'Service': 'Low', 'Price': 'Low', 'Status': '?'}, {'Service': 'Low', 'Price': 'Average', 'Status': '?'}, {'Service': 'Low', 'Price': 'High', 'Status': '?'},
 {'Service': 'Average', 'Price': 'Low', 'Status': '?'}, {'Service': 'Average', 'Price': 'Average', 'Status': '?'}, {'Service': 'Average', 'Price': 'High', 'Status': '?'},
 {'Service': 'High', 'Price': 'Low', 'Status': '?'}, {'Service': 'High', 'Price': 'Average', 'Status': '?'}, {'Service': 'High', 'Price': 'High', 'Status': '?'}]
 
+# (Defuzzification)
     #  low, mid, high
 sugeno = [0, 0, 0]
 
+# (Main Program)
 # Main
 flag = True
 
