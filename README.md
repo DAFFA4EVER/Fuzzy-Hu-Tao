@@ -40,3 +40,6 @@ We use Sugeno method to do it
 * flag  = True/False
     - True : Means we can read the data (either bengkel.xlsx or test.xlsx)
     - False : Means we can't read the data (either bengkel.xlsx or test.xlsx)
+
+
+If you have some questions, ask me on Discord (DA4#6300)
