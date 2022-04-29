@@ -15,6 +15,7 @@ I already leave the fuzzification and inference setting blank. Use your own brew
 * pyi_splash = it will be used if you want to compile this code to .exe file. It is not important thou 👌
 
 **(Fuzzification)**
+
 How to read and use it (This is just an illustration)
 ![Fuzzification Legend](https://github.com/DAFFA4EVER/Fuzzy-Hu-Tao/blob/main/Teaching%20by%20Hu%20Tao.png)
 
