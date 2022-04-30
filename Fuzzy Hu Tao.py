@@ -106,6 +106,7 @@ def savefile(final_data, flag):
     if(flag == 'real'):
         name = input("Input the filename : ")
         sort = input("Sort by ID or Defuzz? ").upper()
+        final_data = sorted(final_data, key=lambda i: i['Defuzz'])
         if(sort == "ID"): 
             final_data = sorted(final_data, key=lambda i: i['ID'])
         elif(sort != "DEFUZZ") : print("Sorted by Defuzz by default")
